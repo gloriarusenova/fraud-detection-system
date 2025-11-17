@@ -1,0 +1,20 @@
+{
+  "datasets": [
+    {
+      "timestamp": "2025-10-15T19:20:31.702602",
+      "dataset_name": "creditcard_fraud_2013",
+      "data_hash": "ea9901d167b85eff86435ee4bb64ebddda211664788802a77b9e252b9478483e",
+      "row_count": 284807,
+      "column_count": 31,
+      "file_path": "fraud_detection_project/data/raw/creditcard_fraud_2013.csv"
+    },
+    {
+      "timestamp": "2025-10-15T19:21:05.101072",
+      "dataset_name": "creditcard_fraud_2013",
+      "data_hash": "ea9901d167b85eff86435ee4bb64ebddda211664788802a77b9e252b9478483e",
+      "row_count": 284807,
+      "column_count": 31,
+      "file_path": "fraud_detection_project/data/raw/creditcard_fraud_2013.csv"
+    }
+  ]
+}

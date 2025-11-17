@@ -1,0 +1,132 @@
+{
+  "analysis_type": "Full Exploratory Data Analysis",
+  "dataset": {
+    "name": "creditcard_fraud_2013",
+    "total_rows": 284807,
+    "total_features": 34,
+    "memory_mb": 73.8788948059082
+  },
+  "data_quality": {
+    "missing_values": 0,
+    "duplicate_rows": 1081,
+    "duplicate_percentage": 0.379555277784605,
+    "quality_score": 99.2
+  },
+  "class_analysis": {
+    "fraud_count": 492,
+    "normal_count": 284315,
+    "fraud_rate_percent": 0.1727485630620034,
+    "imbalance_ratio": 577.8760162601626,
+    "fraud_total_loss": 60127.97
+  },
+  "amount_analysis": {
+    "fraud_median": 9.25,
+    "normal_median": 22.0,
+    "fraud_mean": 122.21132113821139,
+    "normal_mean": 88.29102242231328,
+    "mann_whitney_significant": true,
+    "ks_test_significant": true
+  },
+  "outlier_detection": {
+    "fraud_rate_lift": 143.2810988930392,
+    "outliers_detected": 2849,
+    "fraud_in_outliers": 291,
+    "recall_percentage": 59.14634146341463,
+    "recommendation": "CRITICAL: Include outlier scores as features"
+  },
+  "time_analysis": {
+    "peak_fraud_hour": 2,
+    "peak_fraud_rate": 1.7127403846153848,
+    "safest_hour": 10,
+    "safest_rate": 0.04819857814194481,
+    "chi_square_significant": true
+  },
+  "pca_features": {
+    "top_10_features": [
+      {
+        "Feature": "V17",
+        "Cohens_d": 8.317623651117119,
+        "Fraud_Mean": -6.665836399449663,
+        "Normal_Mean": 0.011535063252129248
+      },
+      {
+        "Feature": "V14",
+        "Cohens_d": 7.643638717112153,
+        "Fraud_Mean": -6.971722894107602,
+        "Normal_Mean": 0.012064392184377496
+      },
+      {
+        "Feature": "V12",
+        "Cohens_d": 6.499801343150422,
+        "Fraud_Mean": -6.259393036190131,
+        "Normal_Mean": 0.010831723172555738
+      },
+      {
+        "Feature": "V10",
+        "Cohens_d": 5.350007022258805,
+        "Fraud_Mean": -5.676882870194368,
+        "Normal_Mean": 0.009823703892289417
+      },
+      {
+        "Feature": "V16",
+        "Cohens_d": 4.826913003352893,
+        "Fraud_Mean": -4.139945699092808,
+        "Normal_Mean": 0.007164072539099487
+      },
+      {
+        "Feature": "V3",
+        "Cohens_d": 4.7356047674559125,
+        "Fraud_Mean": -7.0332810485965584,
+        "Normal_Mean": 0.012170917031845403
+      },
+      {
+        "Feature": "V7",
+        "Cohens_d": 4.590444994369657,
+        "Fraud_Mean": -5.5687310837427395,
+        "Normal_Mean": 0.009636549929484086
+      },
+      {
+        "Feature": "V11",
+        "Cohens_d": 3.7750430072997494,
+        "Fraud_Mean": 3.800172911374607,
+        "Normal_Mean": -0.006576104223821521
+      },
+      {
+        "Feature": "V4",
+        "Cohens_d": 3.242492265342313,
+        "Fraud_Mean": 4.542029104423092,
+        "Normal_Mean": -0.00785986782046522
+      },
+      {
+        "Feature": "V18",
+        "Cohens_d": 2.7014687687158347,
+        "Fraud_Mean": -2.2463081339714064,
+        "Normal_Mean": 0.003887180071097925
+      }
+    ],
+    "large_effect_count": 17,
+    "medium_effect_count": 0
+  },
+  "correlation_analysis": {
+    "top_correlated_feature": "V17",
+    "top_correlation_value": -0.3264810672437159,
+    "high_correlation_pairs_count": 0,
+    "top_5_correlations": {
+      "V17": -0.3264810672437159,
+      "V14": -0.3025436958044029,
+      "V12": -0.26059292487722485,
+      "Is_Outlier": 0.2430607559346192,
+      "V10": -0.21688294364103206
+    }
+  },
+  "recommendations": [
+    "1. Create outlier score features (143x fraud lift)",
+    "2. Engineer time-based features (peak hours identified)",
+    "3. Transform Amount feature (log, z-score, bins)",
+    "4. Select top 10-15 V-features based on Cohen's d",
+    "5. Address class imbalance with SMOTE + class weights",
+    "6. Create interaction features (Amount \u00d7 Outlier Score)",
+    "7. Remove highly correlated features if needed"
+  ],
+  "next_phase": "Feature Engineering"
+}

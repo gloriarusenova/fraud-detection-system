@@ -1,0 +1,63 @@
+# Internal Documentation (not for GitHub)
+GITHUB_UPLOAD_CHECKLIST.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (too large for GitHub - users download from Kaggle)
+*.csv
+*.db
+*.sqlite
+
+# Models (if they become too large)
+# Uncomment if model files exceed 100MB
+# *.pkl
+# *.joblib
+
+# Node modules (React dashboard)
+fraud-dashboard/node_modules/
+fraud-dashboard/build/
+fraud-dashboard/dist/
+fraud-dashboard/.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+

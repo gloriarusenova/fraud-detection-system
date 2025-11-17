@@ -1,0 +1,51 @@
+{
+  "data_quality": {
+    "missing_values": {
+      "total": 0,
+      "percentage": 0.0
+    },
+    "data_types": {
+      "float64": 30,
+      "int64": 1
+    },
+    "duplicates": {
+      "count": 1081,
+      "percentage": 0.379555277784605
+    },
+    "quality_score": 99.24088944443079
+  },
+  "class_analysis": {
+    "fraud_count": 492,
+    "normal_count": 284315,
+    "fraud_rate": 0.1727485630620034,
+    "imbalance_ratio": 577.8760162601626,
+    "total_amount": 25162590.01,
+    "fraud_amount": 60127.97,
+    "avg_fraud_amount": 122.21132113821139,
+    "avg_normal_amount": 88.29102242231328
+  },
+  "feature_analysis": {
+    "amount": {
+      "normal_mean": 88.29102242231328,
+      "fraud_mean": 122.21132113821139,
+      "normal_median": 22.0,
+      "fraud_median": 9.25,
+      "mannwhitney_p": 8.578472310840218e-06,
+      "ks_statistic": 0.27119151307757383,
+      "ks_p": 2.1703053464297685e-32,
+      "cohens_d": -0.13385248303099562
+    },
+    "outliers": {
+      "outlier_count": 2849,
+      "outlier_fraud_rate": 10.214110214110214,
+      "normal_fraud_rate": 0.0712872129891686,
+      "fraud_rate_lift": 143.2810988930392,
+      "fraud_in_outliers": 291
+    }
+  },
+  "statistical_tests": {},
+  "business_metrics": {},
+  "recommendations": [
+    "HIGH PRIORITY: Include outlier detection features in modeling pipeline. Outliers show 143.3x higher fraud rate."
+  ]
+}

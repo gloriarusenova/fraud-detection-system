@@ -449,13 +449,7 @@ ML Engineer | Data Scientist | Fraud Detection Specialist
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/yourusername)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:your.email@example.com)
 
----
 
-## 🙏 **Acknowledgments**
-
-- Dataset: [Kaggle Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-- Original Paper: "Calibrating Probability with Undersampling for Unbalanced Classification" by Dal Pozzolo et al.
-- Inspiration: Real-world fraud detection systems at financial institutions
 
 ---
 
@@ -487,17 +481,7 @@ ML Engineer | Data Scientist | Fraud Detection Specialist
 
 ---
 
-## 🎓 **Learning Outcomes**
 
-Building this project taught me:
-
-1. ✅ **Handling extreme class imbalance** (578:1 ratio)
-2. ✅ **Domain-driven feature engineering** (EDA → Features → Impact)
-3. ✅ **Business-focused ML** (translating metrics to $$$)
-4. ✅ **Model explainability** (why predictions matter)
-5. ✅ **Production considerations** (latency, monitoring, metadata)
-6. ✅ **Honest model assessment** (acknowledging weaknesses)
-7. ✅ **Storytelling with data** (compelling portfolio narrative)
 
 ---
 

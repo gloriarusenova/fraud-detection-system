@@ -323,27 +323,7 @@ jupyter notebook notebooks/Model_Building.ipynb
 
 ---
 
-## 📊 **Dataset**
 
-### **Download the Data**
-
-The dataset is **not included** in this repository due to file size (144MB).
-
-**📥 Download from Kaggle:**
-1. Visit: **[Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)**
-2. Download `creditcard.csv`
-3. Place it in: `fraud_detection_project/data/raw/`
-4. Rename to: `creditcard_fraud_2013.csv`
-
-**Source**: Kaggle Credit Card Fraud Detection Dataset (2013)  
-**License**: Database Contents License (DbCL) v1.0 - Free for research/education
-
-### **Dataset Statistics**
-- **Total Transactions**: 284,807
-- **Fraud Cases**: 492 (0.17%)
-- **Features**: 31 original → 52 after engineering
-- **Time Span**: 2 days in September 2013
-- **Amount Range**: $0.00 - $25,691.16
 
 ### **Features**
 - **Time**: Seconds since first transaction
@@ -351,7 +331,6 @@ The dataset is **not included** in this repository due to file size (144MB).
 - **Amount**: Transaction amount
 - **Class**: 0 = Normal, 1 = Fraud
 
-**Note**: PCA transformation was applied by original authors for privacy protection.
 
 ---
 
@@ -422,21 +401,6 @@ Explore the full analysis in Jupyter notebooks (located in `notebooks/` folder):
 
 ---
 
-## 🤝 **Contributing**
-
-This is a portfolio project, but suggestions are welcome!
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📝 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -452,16 +416,6 @@ ML Engineer | Data Scientist | Fraud Detection Specialist
 
 
 ---
-
-## 📈 **Project Stats**
-
-- **Development Time**: 40+ hours
-- **Lines of Code**: 5,000+
-- **Jupyter Notebooks**: 3
-- **Visualizations Created**: 12
-- **Models Trained**: 3
-- **Features Engineered**: 21
-- **Documentation Pages**: 20+
 
 ---
 
@@ -487,7 +441,7 @@ ML Engineer | Data Scientist | Fraud Detection Specialist
 
 <div align="center">
 
-**⭐ If you found this project helpful, please give it a star! ⭐**
+
 
 Built with ❤️ by Gloria Rusenova | [Portfolio](#) | [LinkedIn](#) | [GitHub](#)
 
